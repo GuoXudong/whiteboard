@@ -22,7 +22,6 @@ void Scene::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 
 void Scene::mousePressEvent(QGraphicsSceneMouseEvent *event)
 {
-    //add ellipse on click
     addEllipse(event->scenePos().x(),
                event->scenePos().y(),
                size,
@@ -30,7 +29,7 @@ void Scene::mousePressEvent(QGraphicsSceneMouseEvent *event)
                QPen(Qt::NoPen),
                QBrush(color));
 
-    prev = event->scenePos();       //save start point
+    prev = event->scenePos();
 }
 
 void Scene::mouseMoveEvent(QGraphicsSceneMouseEvent *event)

@@ -26,8 +26,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
     scene.cpp \
-    whiteboard.cpp \
-    colors_manage.cpp
+    whiteboard.cpp
 
 HEADERS += \
     scene.h \
