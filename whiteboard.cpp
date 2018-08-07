@@ -6,11 +6,11 @@ Whiteboard::Whiteboard(QWidget *parent) :
     ui(new Ui::Whiteboard)
 {
     ui->setupUi(this);
-    //setAttribute(Qt::WA_TranslucentBackground, true);
-    setWindowFlags(Qt::FramelessWindowHint);
+    setAttribute(Qt::WA_TranslucentBackground, true);
 
     scene = new Scene();                //add scene
     ui->graphicsView->setScene(scene);
+    ui->graphicsView->setRenderHint(QPainter::Antialiasing, true);
 
     timer = new QTimer();
     connect(timer, &QTimer::timeout, this, &Whiteboard::Timer);

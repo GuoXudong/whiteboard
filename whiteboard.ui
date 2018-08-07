@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1096</width>
+    <width>906</width>
     <height>736</height>
    </rect>
   </property>
@@ -30,7 +30,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>652</width>
+     <width>831</width>
      <height>71</height>
     </rect>
    </property>
@@ -1001,17 +1001,17 @@ background-color: rgb(239, 11, 0);</string>
   <widget class="QGraphicsView" name="graphicsView">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>170</y>
-     <width>500</width>
-     <height>461</height>
+     <x>10</x>
+     <y>90</y>
+     <width>881</width>
+     <height>631</height>
     </rect>
    </property>
    <property name="autoFillBackground">
     <bool>false</bool>
    </property>
    <property name="styleSheet">
-    <string notr="true">background:transparent;</string>
+    <string notr="true"/>
    </property>
    <property name="verticalScrollBarPolicy">
     <enum>Qt::ScrollBarAlwaysOff</enum>
@@ -1020,29 +1020,8 @@ background-color: rgb(239, 11, 0);</string>
     <enum>Qt::ScrollBarAlwaysOff</enum>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>130</y>
-     <width>761</width>
-     <height>541</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap resource="res.qrc">:/8f06eeccf8d2ba00b221eba46e5ff05f.png</pixmap>
-   </property>
-   <property name="scaledContents">
-    <bool>true</bool>
-   </property>
-  </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources>
-  <include location="res.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
